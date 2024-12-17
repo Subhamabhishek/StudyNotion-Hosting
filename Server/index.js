@@ -24,7 +24,7 @@ app.use(cookieParser())
 //vvvimp --> for frontend
 app.use(
     cors({
-        origin : "http://localhost:3000",
+        origin : ["http://localhost:3000","https://study-notion-hosting-seven.vercel.app"],
         credentials : true
     })
 )
